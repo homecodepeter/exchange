@@ -13,3 +13,43 @@ body{
     font-size: 2rem;
     color: #fff;
 }
+.container input{
+    padding: 10px 10px;
+    width: 40%;
+    outline:none;
+    border:none;
+    font-size: 1.2rem;
+    border-top-right-radius: 20px;
+}
+.big{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.big h1{
+    font-size: 3rem;
+    color: cornflowerblue;
+}
+.main input{
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2rem;
+    outline:none;
+}
+.main ul{
+    list-style: none;
+    font-size: 2rem;
+}
+.main ul li{
+    color: rgb(26, 213, 238);
+    width: 60%;
+}
+.main ul li > i{
+    margin-left: 2rem;
+    color:darkred;
+    cursor: pointer;
+}
+.main ul li > h3{
+    font-size: 1rem;
+    color: deepskyblue;
+}
