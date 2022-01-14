@@ -36,6 +36,11 @@ body{
     font-size: 1.2rem;
     outline:none;
 }
+.main button{
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    outline:none;
+}
 .main ul{
     list-style: none;
     font-size: 2rem;
