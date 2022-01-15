@@ -7,6 +7,7 @@ search.addEventListener('keyup', DOResearch);
 
 btn.addEventListener('click', myFunction);
 function myFunction(){
+    if(text.value != ""){
    var li = document.createElement('li');
    var alen = text.value;
    li.textContent = alen;
@@ -21,6 +22,7 @@ function myFunction(){
   li.append(h3);
   ul.appendChild(li);
   text.value = "";
+    }
 }
 function removeFunc(element){
     if(element.target.classList.contains('delete')){
