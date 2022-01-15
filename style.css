@@ -47,7 +47,8 @@ body{
 }
 .main ul li{
     color: rgb(26, 213, 238);
-    width: 60%;
+    width: 80%;
+    word-break: keep-all;
 }
 .main ul li > i{
     margin-left: 2rem;
